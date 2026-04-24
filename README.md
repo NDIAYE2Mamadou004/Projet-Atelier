@@ -84,7 +84,7 @@ Ce qu'il fait concrètement :
 
 ---
 
-### 👤 Fatim THIA? — Design & Contenu
+### 👤 Fatim THIAM — Design & Contenu
 
 **Son rôle :** Il s'occupe du rendu visuel du site et de la rédaction des textes.
 
