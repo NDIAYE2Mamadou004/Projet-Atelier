@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Technique — AGPI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="../style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="page-nav">
+  <a href="../index.html" class="nav-logo">AGPI<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="../index.html"><i class="fa-solid fa-house"></i> Accueil</a></li>
+    <li><a href="fonctionnalites.html"><i class="fa-solid fa-wand-magic-sparkles"></i> Fonctionnalités</a></li>
+    <li><a href="technique.html" class="active"><i class="fa-solid fa-server"></i> Technique</a></li>
+    <li><a href="equipe.html"><i class="fa-solid fa-users"></i> Équipe</a></li>
+  </ul>
+  <a href="../index.html" class="nav-back"><i class="fa-solid fa-arrow-left"></i> Retour</a>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="hero-glow"></div>
+  <div>
+    <div class="hero-badge"><i class="fa-solid fa-server"></i> Architecture Technique</div>
+    <h1>Stack <span class="line-accent">robuste & scalable</span></h1>
+    <p>Une architecture conteneurisée sur le cloud, pensée pour la montée en charge et l'intégration des modèles d'IA.</p>
+  </div>
+</section>
+
+<!-- TECH TABLE -->
+<div class="tech-section">
+  <div>
+    <p class="section-label reveal"><i class="fa-solid fa-layer-group"></i> Technologies utilisées</p>
+    <h2 class="section-title reveal">La stack technique</h2>
+    <div class="tech-table-wrap reveal" style="transition-delay:.1s">
+      <table>
+        <thead>
+          <tr>
+            <th>Technologie</th>
+            <th>Rôle dans le projet</th>
+            <th>Détail</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>React.js</td>
+            <td>Interface utilisateur SPA / PWA</td>
+            <td>Composants réutilisables, hooks, routing dynamique</td>
+          </tr>
+          <tr>
+            <td>Node.js</td>
+            <td>Backend API REST</td>
+            <td>Express.js, middlewares d'authentification, WebSockets</td>
+          </tr>
+          <tr>
+            <td>FastAPI</td>
+            <td>Microservices IA (Python)</td>
+            <td>Endpoints pour ML, NLP et prédiction de risques</td>
+          </tr>
+          <tr>
+            <td>PostgreSQL</td>
+            <td>Base de données relationnelle</td>
+            <td>Projets, tâches, utilisateurs, historique</td>
+          </tr>
+          <tr>
+            <td>MongoDB</td>
+            <td>Stockage de documents</td>
+            <td>Logs d'activité, données non-structurées</td>
+          </tr>
+          <tr>
+            <td>TensorFlow</td>
+            <td>Machine Learning — prédiction</td>
+            <td>Modèles entraînés sur données historiques de projets</td>
+          </tr>
+          <tr>
+            <td>LLM / Gemini</td>
+            <td>Intelligence artificielle générative</td>
+            <td>NLP, génération de tâches, assistant virtuel</td>
+          </tr>
+          <tr>
+            <td>Docker</td>
+            <td>Conteneurisation</td>
+            <td>Images reproductibles, isolation des services</td>
+          </tr>
+          <tr>
+            <td>Kubernetes</td>
+            <td>Orchestration de conteneurs</td>
+            <td>Auto-scaling, haute disponibilité, load balancing</td>
+          </tr>
+          <tr>
+            <td>AWS / GCP</td>
+            <td>Infrastructure cloud</td>
+            <td>Déploiement multi-région, stockage objet, CDN</td>
+          </tr>
+          <tr>
+            <td>GitHub</td>
+            <td>Versioning & CI/CD</td>
+            <td>Repository, GitHub Actions, revues de code</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Architecture stack visual -->
+    <p class="section-label reveal" style="margin-top:3rem"><i class="fa-solid fa-sitemap"></i> Architecture par couche</p>
+    <h2 class="section-title reveal">Organisation des services</h2>
+    <div class="arch-stack reveal" style="transition-delay:.1s; max-width:700px; margin-bottom:4rem">
+      <div class="arch-row">
+        <span class="arch-label"><i class="fa-solid fa-display"></i> Frontend</span>
+        <div class="arch-pills"><span class="pill pill-blue">React.js</span><span class="pill pill-white">SPA</span><span class="pill pill-green">PWA</span></div>
+      </div>
+      <div class="arch-row">
+        <span class="arch-label"><i class="fa-solid fa-gear"></i> Backend</span>
+        <div class="arch-pills"><span class="pill pill-blue">Node.js</span><span class="pill pill-blue">FastAPI</span><span class="pill pill-white">Python</span></div>
+      </div>
+      <div class="arch-row">
+        <span class="arch-label"><i class="fa-solid fa-database"></i> Base données</span>
+        <div class="arch-pills"><span class="pill pill-purple">PostgreSQL</span><span class="pill pill-green">MongoDB</span></div>
+      </div>
+      <div class="arch-row">
+        <span class="arch-label"><i class="fa-solid fa-microchip"></i> IA</span>
+        <div class="arch-pills"><span class="pill pill-purple">LLM / Gemini</span><span class="pill pill-purple">TensorFlow</span><span class="pill pill-white">Scikit-learn</span></div>
+      </div>
+      <div class="arch-row">
+        <span class="arch-label"><i class="fa-brands fa-aws"></i> Cloud</span>
+        <div class="arch-pills"><span class="pill pill-blue">AWS / GCP</span><span class="pill pill-white">Docker</span><span class="pill pill-white">Kubernetes</span></div>
+      </div>
+      <div class="arch-row">
+        <span class="arch-label"><i class="fa-solid fa-lock"></i> Sécurité</span>
+        <div class="arch-pills"><span class="pill pill-red">SSO</span><span class="pill pill-red">OAuth 2.0</span><span class="pill pill-red">2FA</span><span class="pill pill-red">TLS 1.3</span><span class="pill pill-red">RGPD</span></div>
+      </div>
+    </div>
+
+    <!-- File structure -->
+    <p class="section-label reveal"><i class="fa-solid fa-folder-tree"></i> Structure des fichiers</p>
+    <h2 class="section-title reveal">Organisation du projet</h2>
+    <div class="terminal reveal" style="transition-delay:.1s">
+      <div class="terminal-header">
+        <span class="t-dot t-red"></span>
+        <span class="t-dot t-yellow"></span>
+        <span class="t-dot t-green"></span>
+        <span style="color:var(--muted);font-size:.78rem;margin-left:.5rem;font-family:'DM Sans',sans-serif">Projet-Atelier/</span>
+      </div>
+      <div class="terminal-body">
+<span class="t-dir">AGPI/</span>
+<span class="t-comment">├──</span> <span class="t-file">index.html</span>              <span class="t-comment">← Page d'accueil (vitrine principale)</span>
+<span class="t-comment">├──</span> <span class="t-file">style.css</span>               <span class="t-comment">← Styles globaux partagés par toutes les pages</span>
+<span class="t-comment">├──</span> <span class="t-file">script.js</span>               <span class="t-comment">← JavaScript commun (navbar, scroll, animations)</span>
+<span class="t-comment">├──</span> <span class="t-dir">pages/</span>
+<span class="t-comment">│   ├──</span> <span class="t-file">fonctionnalites.html</span>    <span class="t-comment">← Détail des modules AGPI</span>
+<span class="t-comment">│   ├──</span> <span class="t-file">technique.html</span>          <span class="t-comment">← Stack & architecture (cette page)</span>
+<span class="t-comment">│   └──</span> <span class="t-file">equipe.html</span>             <span class="t-comment">← Présentation des membres</span>
+<span class="t-comment">└──</span> <span class="t-file">README.md</span>               <span class="t-comment">← Documentation GitHub du projet</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PRINCIPES -->
+<section>
+  <div style="max-width:1160px;margin:0 auto">
+    <p class="section-label reveal"><i class="fa-solid fa-compass-drafting"></i> Principes</p>
+    <h2 class="section-title reveal">Nos choix de conception</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin-top:2rem">
+      <div class="feature-card reveal">
+        <div class="feature-icon-wrap icon-core"><i class="fa-solid fa-bolt"></i></div>
+        <h3>Sans dépendances inutiles</h3>
+        <p>Chaque librairie est justifiée. L'objectif est la légèreté maximale pour des performances optimales.</p>
+      </div>
+      <div class="feature-card reveal" style="transition-delay:.1s">
+        <div class="feature-icon-wrap icon-green"><i class="fa-solid fa-mobile-screen"></i></div>
+        <h3>Responsive & PWA</h3>
+        <p>Adapté à tous les écrans. Installable comme application native sur mobile et desktop.</p>
+      </div>
+      <div class="feature-card reveal" style="transition-delay:.2s">
+        <div class="feature-icon-wrap icon-ai"><i class="fa-solid fa-universal-access"></i></div>
+        <h3>Accessible</h3>
+        <p>Sémantique HTML5, attributs ARIA, contraste WCAG AA — le site est utilisable par tous.</p>
+      </div>
+      <div class="feature-card reveal" style="transition-delay:.3s">
+        <div class="feature-icon-wrap icon-red"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+        <h3>Maintenable</h3>
+        <p>Variables CSS centralisées, code commenté, séparation stricte des responsabilités.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-surface">
+  <div>
+    <div style="text-align:center">
+      <p class="section-label" style="justify-content:center"><i class="fa-solid fa-users"></i> Continuer</p>
+      <h2 class="section-title" style="text-align:center">Découvrir l'équipe</h2>
+      <p style="color:var(--muted);text-align:center;margin-bottom:2rem">Qui se cache derrière AGPI ?</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="equipe.html" class="btn-primary"><i class="fa-solid fa-users"></i> L'équipe →</a>
+        <a href="../index.html" class="btn-ghost"><i class="fa-solid fa-house"></i> Accueil</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">AGPI.</div>
+  <span>Application de Gestion de Projets Intelligente &copy; 2026</span>
+  <div class="footer-links">
+    <a href="../index.html"><i class="fa-solid fa-house"></i> Accueil</a>
+    <a href="fonctionnalites.html"><i class="fa-solid fa-wand-magic-sparkles"></i> Fonctionnalités</a>
+    <a href="equipe.html"><i class="fa-solid fa-users"></i> Équipe</a>
+  </div>
+</footer>
+
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => io.observe(el));
+</script>
+</body>
+</html>

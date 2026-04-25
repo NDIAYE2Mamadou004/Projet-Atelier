@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site vitrine</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AGPI — Accueil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+<nav class="page-nav">
+  <a href="index.html" class="nav-logo">AGPI<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i> Accueil</a></li>
+    <li><a href="pages/fonctionnalites.html"><i class="fa-solid fa-wand-magic-sparkles"></i> Fonctionnalités</a></li>
+    <li><a href="pages/technique.html"><i class="fa-solid fa-server"></i> Technique</a></li>
+    <li><a href="pages/equipe.html"><i class="fa-solid fa-users"></i> Équipe</a></li>
+  </ul>
+</nav>
+
+<section class="page-hero">
+  <div class="hero-glow"></div>
+  <div>
+    <div class="hero-badge"><i class="fa-solid fa-circle-dot"></i> SmartProject AI</div>
+    <h1>Bienvenue sur <span class="line-accent">AGPI</span></h1>
+    <p>Application de Gestion de Projet Intelligente : une plateforme pour organiser les tâches, suivre les équipes et anticiper les risques grâce à l'IA.</p>
+    <div class="hero-actions">
+      <a href="pages/fonctionnalites.html" class="btn-primary"><i class="fa-solid fa-wand-magic-sparkles"></i> Fonctionnalités</a>
+      <a href="pages/technique.html" class="btn-ghost"><i class="fa-solid fa-server"></i> Architecture</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-surface">
+  <p class="section-label"><i class="fa-solid fa-link"></i> Navigation rapide</p>
+  <h2 class="section-title">Chaque menu ouvre une vraie page</h2>
+  <div class="features-grid">
+    <div class="feature-card"><h3>Fonctionnalités</h3><p>Modules principaux et intelligence artificielle.</p><a href="pages/fonctionnalites.html">Ouvrir</a></div>
+    <div class="feature-card"><h3>Technique</h3><p>Architecture, stack et sécurité.</p><a href="pages/technique.html">Ouvrir</a></div>
+    <div class="feature-card"><h3>Équipe</h3><p>Membres et organisation du projet.</p><a href="pages/equipe.html">Ouvrir</a></div>
+  </div>
+</section>
 </body>
 </html>

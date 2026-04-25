@@ -29,31 +29,27 @@ Les équipes projet perdent un temps considérable à jongler entre plusieurs ou
 
 ## Structure du projet
 
-```
-AGPI/
-├── index.html
-├── style.css
-├── script.js
+Projet-Atelier/
+├── index.html              ← Page d'accueil (vitrine principale)
+├── style.css               ← Feuille de style globale
+├── script.js               ← JavaScript commun
 ├── pages/
-│   ├── fonctionnalites.html
-│   └── technique.html
-└── README.md
-```
-
----
+│   ├── fonctionnalites.html  ← Détail des 4 modules
+│   ├── technique.html        ← Stack & architecture
+│   └── equipe.html           ← Présentation de l'équipe
+└── README.md               ← Ce fichier
 
 ## Équipe & Rôles
+### 👤 Penda NDIAYE — Chef de Projet
 
-### 👤 Mamadou NDIAYE — Chef de Projet
+**Son rôle :** Elle coordonne toute l'équipe et s'assure que le projet avance bien.
 
-**Son rôle :** Il coordonne toute l'équipe et s'assure que le projet avance bien.
-
-Ce qu'il fait concrètement :
-- Il répartit les tâches entre les membres au début
-- Il vérifie que tout le monde avance et relance si quelqu'un est bloqué
-- Il valide les tâches sur Trello (déplacer les cartes vers "Terminé")
-- Il s'assure que le site vitrine est cohérent et complet avant la deadline
-- Il prépare le document de synthèse finale avec le bilan du projet
+Ce qu'Elle fait concrètement :
+- Elle répartit les tâches entre les membres au début
+- Elle vérifie que tout le monde avance et relance si quelqu'un est bloqué
+- Elle valide les tâches sur Trello (déplacer les cartes vers "Terminé")
+- Elle s'assure que le site vitrine est cohérent et complet avant la deadline
+- Elle prépare le document de synthèse finale avec le bilan du projet
 
 ---
 
@@ -69,8 +65,7 @@ Ce qu'il fait concrètement :
 - Il aide les autres membres si ils ont des problèmes techniques
 
 ---
-
-### 👤 Penda NDIAYE — DevOps / Responsable GitHub
+### 👤 Mamadou NDIAYE — DevOps / Responsable GitHub
 
 **Son rôle :** Il gère le repository GitHub et s'assure que tout le monde peut travailler ensemble sans problème.
 
@@ -86,20 +81,25 @@ Ce qu'il fait concrètement :
 
 ### 👤 Fatim THIAM — Design & Contenu
 
-**Son rôle :** Il s'occupe du rendu visuel du site et de la rédaction des textes.
+**Son rôle :** Elle s'occupe du rendu visuel du site et de la rédaction des textes.
 
-Ce qu'il fait concrètement :
-- Il fait les maquettes (croquis ou wireframe) des 3 pages avant de coder
-- Il écrit tous les textes qui apparaissent sur le site (titres, descriptions, boutons)
-- Il choisit les couleurs, les polices et le style visuel général
-- Il s'occupe du CSS pour que le site soit beau et lisible
-- Il vérifie que le rendu final est propre et professionnel
+Ce qu'elle fait concrètement :
+- Elle fait les maquettes (croquis ou wireframe) des 3 pages avant de coder
+- Elle écrit tous les textes qui apparaissent sur le site (titres, descriptions, boutons)
+- Elle choisit les couleurs, les polices et le style visuel général
+- Elle s'occupe du CSS pour que le site soit beau et lisible
+- Elle vérifie que le rendu final est propre et professionnel
 
 ---
 
 ## Deadline
 
 Livraison complète : **25 Avril 2026**
+
+## Équipe
+Projet réalisé par une équipe d'étudiants de l'ISI dans le cadre de l'atelier
+"Planifier et lancer un projet en équipe"  
+Module atelier créatif, Samba B. KANE.
 
 ### Livrables attendus
 - Lien Trello
