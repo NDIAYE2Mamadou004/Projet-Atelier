@@ -40,7 +40,7 @@ Projet-Atelier/
 └── README.md               ← Ce fichier
 
 ## Équipe & Rôles
-### 👤 Penda NDIAYE — Chef de Projet
+### 👤 Penda NDIAYE — Cheffe de Projet
 
 **Son rôle :** Elle coordonne toute l'équipe et s'assure que le projet avance bien.
 
